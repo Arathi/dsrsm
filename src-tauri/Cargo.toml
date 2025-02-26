@@ -1,6 +1,6 @@
 [package]
 name = "dsrsm"
-version = "0.25.225-dev+25022511"
+version = "0.25.225-dev+25022614"
 description = "Dark Souls Remastered Save Manager"
 authors = ["Arathi of Nebnizilla"]
 edition = "2021"

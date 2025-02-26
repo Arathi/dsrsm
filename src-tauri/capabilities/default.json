@@ -13,16 +13,16 @@
     "notification:default",
     "store:default",
     {
-      "identifier": "fs:allow-watch",
+      "identifier": "fs:allow-copy-file",
       "allow": [{
-        "path": "$DOCUMENT/NBGI/DARK SOULS REMASTERED"
+        "path": "$DOCUMENT/NBGI/DARK SOULS REMASTERED/**"
+      }, {
+        "path": "$DOCUMENT/NBGI/backup/**"
       }]
     },
     {
-      "identifier": "fs:allow-copy-file",
+      "identifier": "fs:allow-mkdir",
       "allow": [{
-        "path": "$DOCUMENT/NBGI/DARK SOULS REMASTERED"
-      }, {
         "path": "$DOCUMENT/NBGI/backup"
       }]
     },
@@ -35,7 +35,15 @@
     {
       "identifier": "fs:allow-stat",
       "allow": [{
-        "path": "$DOCUMENT/NBGI/DARK SOULS REMASTERED"
+        "path": "$DOCUMENT/NBGI/DARK SOULS REMASTERED/**"
+      },{
+        "path": "$DOCUMENT/NBGI/backup/**"
+      }]
+    },
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [{
+        "path": "$DOCUMENT/NBGI/backup"
       }]
     }
   ]
